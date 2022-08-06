@@ -1,0 +1,10 @@
+print('请选择加法还是减法')
+a = input()
+if a == '加法':
+    print('请输入第一个加数')
+    a1 = input()
+    print('然后是第二个')
+    a2 = input()
+    print(a1 + a2)
+if a == '减法':
+    print('正在制作')
